@@ -3,6 +3,7 @@
     border:10px;
     border-radius: 5px;
     margin-top: 5px;
+   flex-wrap: wrap;
 }
 .container {
     width:35%;
@@ -77,5 +78,7 @@ h1{
     background-image: url('https://i.pinimg.com/originals/be/fa/23/befa23d6baa949188a35d16852aac008.jpg');
     background-size: cover;
     background-position: center;
+    display: block;
+    flex-wrap: wrap;
   }
   
