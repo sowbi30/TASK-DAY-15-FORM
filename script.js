@@ -48,22 +48,9 @@ form.addEventListener("submit", function (e) {
 
 
     const myElement = document.getElementById('myElement');
-        myElement.style.backgroundImage = "url('https://i.pinimg.com/originals/be/fa/23/befa23d6baa949188a35d16852aac008.jpg')";
+        myElement.style.backgroundImage = "url('https://wallpapertag.com/wallpaper/full/6/a/4/151428-download-free-beautiful-desktop-wallpaper-1920x1200-for-pc.jpg')";
         myElement.style.backgroundSize = "cover";
         myElement.style.backgroundPosition = "center";
 
 
-    const mediaQuery = window.matchMedia("(max-width: 600px)");
-      if (mediaQuery.matches) {
-       document.body.classList.add("small-screen");
-     } else {
-    document.body.classList.remove("small-screen");
-   }
-    mediaQuery.addEventListener((mediaQueryList) => {
-    if (mediaQueryList.matches) {
-        document.body.classList.add("small-screen");
-    } else {
-        document.body.classList.remove("small-screen");
-  }
-});
 });
